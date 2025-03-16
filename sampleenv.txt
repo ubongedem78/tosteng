@@ -1,0 +1,12 @@
+DATABASE_URL="postgresql://tost_user:8keLL22NZ21SDjombqSkSZ81oDiI8sU0@dpg-currgl23esus73ffucs0-a.oregon-postgres.render.com/tost"
+
+JWT_SECRET="2699f19e20dad90c4fd0ad4132fe2b41"
+JWT_EXPIRES_IN=30m
+
+APP_PASSWORD="mxpy drud toll wkuc"
+EMAIL="tost.actions@gmail.com"
+
+cloudName="dahawep4l"
+APIkey="754829459612157"
+APIsecret=cCBO3fAOaPnL4PcJZB6rHHIJDVY
+cloudenvironmentVariable="CLOUDINARY_URL=cloudinary://754829459612157:cCBO3fAOaPnL4PcJZB6rHHIJDVY@dahawep4l"
