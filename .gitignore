@@ -1,3 +1,5 @@
+.qodo
+
 # Logs
 logs
 *.log
@@ -35,6 +37,9 @@ bower_components
 # node-waf configuration
 .lock-wscript
 
+# Ignore local migrations
+prisma/migrations/
+
 # Compiled binary addons (https://nodejs.org/api/addons.html)
 build/Release
 
@@ -44,6 +49,11 @@ jspm_packages/
 
 # Snowpack dependency directory (https://snowpack.dev/)
 web_modules/
+
+# cache
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
 
 # TypeScript cache
 *.tsbuildinfo
@@ -104,12 +114,6 @@ dist
 .temp
 .cache
 
-# vitepress build output
-**/.vitepress/dist
-
-# vitepress cache directory
-**/.vitepress/cache
-
 # Docusaurus cache and generated files
 .docusaurus
 
@@ -134,3 +138,5 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+
+.DS_Store
